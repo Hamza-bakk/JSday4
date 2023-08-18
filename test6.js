@@ -50,8 +50,14 @@ function traduireCodon(codon) {
   // ARN à traduire
   const arn1 = "CCGUCGUUGCGCUACAGC";
   const arn2 = "CCUCGCCGGUACUUCUCG";
+  const arn3 = "UUC";
+  const arn4 = "AGA";
+  const arn5 = "UCCCCCUUGUUCCGCUAC";
   
   // Traduction et affichage
   console.log("ARN 1 traduit en acides aminés:", traduireARN(arn1));
   console.log("ARN 2 traduit en acides aminés:", traduireARN(arn2));
+  console.log("ARN 3 traduit en acides aminés:", traduireARN(arn3));
+  console.log("ARN 4 traduit en acides aminés:", traduireARN(arn4));
+  console.log("ARN 5 traduit en acides aminés:", traduireARN(arn5));
   
